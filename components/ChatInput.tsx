@@ -2,7 +2,6 @@
 import useSWR from "swr";
 
 import { PaperAirplaneIcon } from "@heroicons/react/24/solid";
-import { TornadoSharp } from "@mui/icons-material";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { useSession } from "next-auth/react";
 import { FormEvent, useState } from "react";
